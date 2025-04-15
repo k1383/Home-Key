@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- T'es sur pour la langue ? -->
 <html lang="fr"> <!--modif-->
 <head>
     <meta charset="UTF-8">
@@ -10,10 +11,12 @@
 <body>
 
     <header>
+        <!-- Revoi les liens de tes images. N'utilise pas de majuscule partout. Pourquoi tu as créer un dossier pour ton html, il doit être à la racine de ton environement de travail -->
         <a href="/"><img src="../IMG/Logo-HomeKey.png" alt="Logo Home Key"></a>
 
         <nav>
             <ul>
+                <!-- Tu n'oublieras pas de mettre les ancres -->
                 <li><a href="#">Accommodations</a></li>
                 <li><a href="#">Activities</a></li>
             </ul>
@@ -29,6 +32,7 @@
                     <p>The sea, nature or in the city</p>
                 </article>
                 
+                Utilise une balise de formulaire
                 <div id="Location">
                     <i class="fa-solid fa-location-dot"></i>
                     <input type="search" placeholder="Madrid, Spain">
@@ -38,6 +42,7 @@
                 <div id="Filters">
                     <h2>Filters</h2>
                 
+                    plutot que article, utilise button ou a et met tout le contenu dans le même element
                     <article id="Sea">
                         <i class="fa-solid fa-water"></i>
                         <p>Sea</p>
@@ -59,6 +64,7 @@
                     </article>
                 </div>
             
+                Pour ce paragraphe tu peux supprimer la div et faire un p avec le i a l'intérieur
                 <div id="Info">
                     <i class="fa-solid fa-circle-info"></i>
                     <p>More than 500 accomodations in this city</p>
@@ -69,12 +75,18 @@
 -->
         <section id="Section-2">
             <div id="Div-1">
+                <!-- Tu es sur pour le niveau de titrage ? -->
                 <h1>Accomodations in Madrid</h1>
+
+                <!-- Tes 6 articles doivent se trouver dans un seul container -->
 
                 <div id="Line-1">
 
+                    <!-- La forme de tes cards n'est pas bonne. Elles doivent être cliquables dans leur intégralité. La balise article doit remplacer ta div border, ton article a l'intérieur doit etre remplacer par une div -->
+
                     <div class="border">
                         <img src="../IMG/Retiro Park.jpeg" alt="image">
+                        <!-- C'est du h3 -->
                         <h2>Retiro Park</h2>
                         <p>Stay from $40/night</p>
                         <article>
@@ -153,6 +165,8 @@
                         </article>
                     </div>
                 </div>
+
+                <!-- Le load more est un lien -->
                 <p id="LoadMore">Load more</p>
             </div>
 
@@ -211,6 +225,7 @@
         </section>
 
         <section id="Section-3">
+            <!-- Titre + utilisation de balise article + rendre card cliquable + niveau de titre des cards -->
             <h1>Discover all activities around here</h1>
 
             <div id="Div-3">
