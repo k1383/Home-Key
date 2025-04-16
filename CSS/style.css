@@ -180,7 +180,7 @@ nav a{
 
 #Section-2 {
     display: flex;
-    gap: 40px;
+    gap: 60px;
 }
 
 #Div-1 {
@@ -228,10 +228,12 @@ nav a{
     font-family: var(--OpenSans);
     font-weight: 400;
     font-size: 16px;
+    padding: 5px 0;
 }
 
 #Section-2 i {
     color: var(--Red);
+    padding: 10px 0;
 }
 
 #LoadMore {
