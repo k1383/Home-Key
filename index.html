@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- T'es sur pour la langue ? -->
 <html lang="fr"> <!--modif-->
 <head>
     <meta charset="UTF-8">
@@ -11,9 +10,7 @@
 <body>
 
     <header>
-        <!-- Revoi les liens de tes images. N'utilise pas de majuscule partout. Pourquoi tu as créer un dossier pour ton html, il doit être à la racine de ton environement de travail -->
         <a href="/"><img src="IMG/Logo-HomeKey.png" alt="Logo Home Key"></a>
-
         <nav>
             <ul>
                 <li><a href="#Section-1">Accommodations</a></li>
@@ -21,8 +18,9 @@
             </ul>
         </nav>
     </header>
-<!--
+
     <main>
+        <!--
         <section id="Section-1">
 
             <div>
@@ -74,107 +72,98 @@
 -->
         <section id="Section-2">
             <div id="Div-1">
-                <!-- Tu es sur pour le niveau de titrage ? -->
-                <h1>Accomodations in Madrid</h1>
+                <h2>Accomodations in Madrid</h2>
 
-                <!-- Tes 6 articles doivent se trouver dans un seul container -->
-
-                <div id="Line-1">
-
-                    <!-- La forme de tes cards n'est pas bonne. Elles doivent être cliquables dans leur intégralité. La balise article doit remplacer ta div border, ton article a l'intérieur doit etre remplacer par une div -->
-
-                    <div class="border">
-                        <img src="IMG/Retiro Park.jpeg" alt="image">
-                        <!-- C'est du h3 -->
-                        <h2>Retiro Park</h2>
+                <div>
+                    <article>
+                        <a href="#"><img src="IMG/Retiro Park.jpeg" alt="image"></a>
+                        <h3>Retiro Park</h3>
                         <p>Stay from $40/night</p>
-                        <article>
+                        <div>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                        </article>
-                    </div>
+                        </div>
+                    </article>
 
-                    <div class="border">
-                        <img src="IMG/Royal Palace of Madrid.jpeg" alt="image">
-                        <h2>Royal Palace of Madrid</h2>
+                    <article>
+                        <a href="#"><img src="IMG/Royal Palace of Madrid.jpeg" alt="image"></a>
+                        <h3>Royal Palace of Madrid</h3>
                         <p>Stay from $46/night</p>
-                        <article>
+                        <div>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                        </article>
-                    </div>
+                        </div>
+                    </article>
 
-                    <div class="border">
-                        <img src="IMG/Puerta del Sol.jpeg" alt="image">
-                        <h2>Puerta del Sol</h2>
+                    <article>
+                        <a href="#"><img src="IMG/Puerta del Sol.jpeg" alt="image"></a>
+                        <h3>Puerta del Sol</h3>
                         <p>Stay from $52/night</p>
-                        <article>
+                        <div>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                        </article>
-                    </div>
-                </div>
-                
-                <div id="Line-2">
-                    <div class="border">
-                        <img src="IMG/Plaza Mayor.jpeg" alt="image">
-                        <h2>Plaza Mayor</h2>
+                        </div>
+                    </article>
+
+                    <article>
+                        <a href="#"><img src="IMG/Plaza Mayor.jpeg" alt="image"></a>
+                        <h3>Plaza Mayor</h3>
                         <p>Stay from $55/night</p>
-                        <article>
+                        <div>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                        </article>
-                    </div>
+                        </div>
+                    </article>
 
-                    <div class="border">
-                        <img src="IMG/Prado Museum.jpeg" alt="image">
-                        <h2>Prado Museum</h2>
+                    <article>
+                        <a href="#"><img src="IMG/Prado Museum.jpeg" alt="image"></a>
+                        <h3>Prado Museum</h3>
                         <p>Stay from $61/night</p>
-                        <article>
+                        <div>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                        </article>
-                    </div>
+                        </div>
+                    </article>
 
-                    <div class="border">
-                        <img src="IMG/Gran Vía.jpeg" alt="image">
-                        <h2>Gran Vía</h2>
+                    <article>
+                        <a href="#"><img src="IMG/Gran Vía.jpeg" alt="image"></a>
+                        <h3>Gran Vía</h3>
                         <p>Stay from $68/night</p>
-                        <article>
+                        <div>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
-                        </article>
-                    </div>
+                        </div>
+                    </article>
                 </div>
 
                 <a id="LoadMore" href="#">Load more</a>
             </div>
 
-            <aside>
+            <!-- <aside>
                 <div id="Div-2">
 
                     <h1>Most popular accomodations</h1>
 
                     <div class="Line-3" id="border">
-                        <img src="IMG/Retiro Park.jpeg" alt="image">
+                        <a href="#"><img src="IMG/Retiro Park.jpeg" alt="image"></a>
                         <div>
                             <h2>Retiro Park</h2>
                             <p>Stay from $40/night</p>
@@ -189,7 +178,7 @@
                     </div>
 
                     <div class="Line-3">
-                        <img src="IMG/Gran Vía.jpeg" alt="image">
+                        <a href="#"><img src="IMG/Gran Vía.jpeg" alt="image"></a>
                         <div>
                             <h2>Gran Vía</h2>
                             <p>Stay from $68/night</p>
@@ -204,7 +193,7 @@
                     </div>
 
                     <div class="Line-3">
-                        <img src="IMG/Puerta del Sol.jpeg" alt="image">
+                        <a href="#"><img src="IMG/Puerta del Sol.jpeg" alt="image"></a>
                         <div>
                             <h2>Puerta del Sol</h2>
                             <p>Stay from $52/night</p>
@@ -219,36 +208,37 @@
                     </div>
                     
                 </div>
-            </aside>
+            </aside> -->
         </section>
 
+        
         <section id="Section-3">
-            <!-- Titre + utilisation de balise article + rendre card cliquable + niveau de titre des cards -->
+            <!-- Titre + niveau de titre des cards  -->
             <h1>Discover all activities around here</h1>
 
             <div id="Div-3">
-                <div class="Div-4">
-                    <img src="IMG/Water activities.jpeg" alt="">
+                <article class="Div-4">
+                    <a href="#"><img src="IMG/Water activities.jpeg" alt="image"></a>
                     <h2>Water activities</h2>
-                </div>
+                </article>
         
-                <div class="Div-4">
-                    <img src="IMG/Moutain activities.jpeg" alt="">
+                <article class="Div-4">
+                    <a href="#"><img src="IMG/Moutain activities.jpeg" alt="image"></a>
                     <h2>Moutain activities</h2>
-                </div>
+                </article>
         
-                <div class="Div-4">
-                    <img src="IMG/Nature activities.jpeg" alt="">
+                <article class="Div-4">
+                    <a href="#"><img src="IMG/Nature activities.jpeg" alt="image"></a>
                     <h2>Nature activities</h2>
-                </div>
+                </article>
         
-                <div class="Div-4">
-                    <img src="IMG/City activities.jpeg" alt="">
+                <article class="Div-4">
+                    <a href="#"> <img src="IMG/City activities.jpeg" alt="image"></a>
                     <h2>City activities</h2>
-                </div>
+                </article>
             </div>
-
-        </section>
+        </section> 
+        
     </main>
 
     <footer>
@@ -279,7 +269,7 @@
             </article>
         </div>
         <p id="Copyright">Design based on Booki website - OpenClassrooms</p>
-    </footer>
+    </footer> 
 
 </body>
 </html>

@@ -50,21 +50,14 @@ nav li {
 
 nav a{
     padding:0 15px;
-
+    color: var(--Black);
+    text-decoration: none;
+    font-family: var(--OpenSans);
+    font-weight: 400;
+    font-size: 16px;
     &:hover{
         border-top: 1px solid var(--Red);
         padding-top: 50px;
-    }
-}
-
-a {
-    font-size: 16px;
-    font-weight: 400;
-    text-decoration: none;
-    color:var(--black);
-    transition: all .2s ease;
-    &:hover{
-        color:var(--red);
     }
 }
 
@@ -185,42 +178,39 @@ a {
 
 /* Section 2 */
 
-#Section-2 {
-    display: flex;
-    max-width: 1440px; 
-    gap: 40px; 
-    padding: 0 15px;
-}
-
 #Div-1 {
     background-color: var(--Lightgrey);
     border-radius: 12px;
-    width: 955.94px;
     height: 747px;
+    width: 955.94px;
 }
 
-#Line-1 {
+#Section-2 > div > div {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
-#Line-2 {
-    padding: 15px 0;
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-}
-
-#Section-2 #Div-1 img {
-    height: 160px;
+#Section-2 img {
     width: 270.64px;
+    height: 160px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-    border: 3px solid white;
 }
 
-#Section-2 h1 {
+#Section-2 article {
+    background-color: var(--White);
+    border-radius: 12px;
+}
+
+#Section-2 h2 {
+    font-family: var(--OpenSans);
+    font-weight: 700;
+    font-size: 22px;
+}
+
+#Section-2 h3 {
     font-family: var(--OpenSans);
     font-weight: 700;
     font-size: 16px;
@@ -234,64 +224,22 @@ a {
 
 #Section-2 i {
     color: var(--Red);
-    font-size: 15px;
-    font-weight: 900;
-}
-
-.border {
-    background-color: var(--White);
-    border-radius: 12px;
-    height: 256px;
-    width: 278.64px;
 }
 
 #LoadMore {
+    color: var(--Black);
     font-family: var(--OpenSans);
     font-weight: 700;
     font-size: 18px;
+    text-decoration: none;
+    &:hover {
+        color: var(--Red);
+    }
 }
 
-/* Section 2  aside */
+/* Section 2 aside */
 
-aside {
-    background-color: var(--Lightgrey);
-    border-radius: 12px;
-    height: 747px;
-    width: 414.06;
-}
 
-#Section-2 aside h1{
-    font-family: var(--OpenSans);
-    font-weight: 700;
-    font-size: 22px;
-}
-
-#Section-2 aside h2 {
-    font-family: var(--OpenSans);
-    font-weight: 700;
-    font-size: 16px;
-}
-
-#Section-2 aside p {
-    font-family: var(--OpenSans);
-    font-weight: 400;
-    font-size: 16px;
-}
-
-#Section-2 aside img {
-    width: 94.61px;
-    height: 160px;
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
-    border: 3px solid white;
-}
-
-.Line-3 {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    padding: 15px 0;
-}
 
 /* Section 3 */
 
