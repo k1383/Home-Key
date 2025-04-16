@@ -204,7 +204,7 @@ nav a{
     border-top-right-radius: 12px;
 }
 
-#Section-2 article {
+#Section-2 #Div-1 article {
     background-color: var(--White);
     border-radius: 12px;
     border: 3px solid white;
@@ -273,6 +273,8 @@ nav a{
 }
 
 
+
+
 /* Section 3 */
 
 #Section-3 {
@@ -285,19 +287,19 @@ nav a{
     box-shadow: 0px 5px 100px 0px rgba(0, 0, 0, 0.25);
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
-    &:hover{
+    /* &:hover{
         
-    }
+    } */
 }
 
-#Section-3 h1 {
+#Section-3 h6 {
     font-family: var(--OpenSans);
     font-weight: 700;
     font-size: 22px;
     padding: 0 15px;
 }
 
-#Section-3 h2 {
+#Section-3 p {
     font-family: var(--OpenSans);
     font-weight: 700;
     font-size: 16px;
