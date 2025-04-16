@@ -292,11 +292,12 @@ nav a{
 
 .Div-6 {
     background-color: white;
-    border-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 
 #Div-2 article {
-    padding: 5px;
+    padding: 10px;
 }
 
 
