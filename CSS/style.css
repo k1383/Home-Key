@@ -186,7 +186,7 @@ nav a{
 #Div-1 {
     background-color: var(--Lightgrey);
     border-radius: 12px;
-    height: 747px;
+    height: 650px;
     width: 955.94px;
    
 }
@@ -240,7 +240,7 @@ nav a{
     font-weight: 700;
     font-size: 18px;
     text-decoration: none;
-    padding: 30px 50px;
+    padding: 50px;
     &:hover {
         color: var(--Red);
     }
@@ -251,7 +251,7 @@ nav a{
 #Section-2 aside {
     background-color: var(--Lightgrey);
     border-radius: 12px;
-    height: 747px;
+    height: 650px;
     width: 414.06px;
 }
 
