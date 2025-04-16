@@ -188,13 +188,14 @@ nav a{
     border-radius: 12px;
     height: 747px;
     width: 955.94px;
+   
 }
 
 #Section-2 > div > div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 20px;
 }
 
 #Section-2 #Div-1 img {
@@ -214,6 +215,7 @@ nav a{
     font-family: var(--OpenSans);
     font-weight: 700;
     font-size: 22px;
+    padding: 30px 50px;
 }
 
 #Section-2 h3 {
@@ -222,7 +224,7 @@ nav a{
     font-size: 16px;
 }
 
-#Section-2 p {
+#Section-2 #Div-1 p{
     font-family: var(--OpenSans);
     font-weight: 400;
     font-size: 16px;
@@ -238,6 +240,7 @@ nav a{
     font-weight: 700;
     font-size: 18px;
     text-decoration: none;
+    padding: 30px 50px;
     &:hover {
         color: var(--Red);
     }
@@ -257,6 +260,7 @@ nav a{
     height: 160px;
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
+    border: 3px solid white;
 }
 
 #Section-2 aside h4 {
@@ -264,6 +268,7 @@ nav a{
     font-family: var(--OpenSans);
     font-weight: 700;
     font-size: 22px;
+    padding: 30px;
 }
 
 #Section-2 aside h5 {
@@ -272,7 +277,25 @@ nav a{
     font-size: 16px;
 }
 
+#Section-2 aside p {
+    font-family: var(--OpenSans);
+    font-weight: 400;
+    font-size: 16px;
+}
 
+.Border {
+    display: flex;
+    justify-content: center;
+}
+
+.Div-6 {
+    background-color: white;
+    border-radius: 12px;
+}
+
+#Div-2 article {
+    padding: 5px;
+}
 
 
 /* Section 3 */
