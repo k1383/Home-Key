@@ -434,12 +434,15 @@ footer > p{
 @media screen and (max-width:767px) {
 
     header {
-        display: grid;
-        grid-template-columns: 1fr;
+        display: inline-block;
     }
 
     header img {
         margin: 0 60px;
+    }
+
+    header nav ul {
+        
     }
 
     header nav a:hover {
