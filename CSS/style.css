@@ -439,10 +439,24 @@ footer > p{
         justify-content: center;
     }
 
+    header img {
+        margin: 20px 70px;
+    }
+
     header nav a:hover {
         border-top: none;
         padding-top: 50px;   
         color: #000;
+    }
+
+    /* Add of icons */
+    .hidden {
+        display: flex;
+    }
+
+    /* disable "Search" */
+    .desktop {
+        display: none;
     }
 
     .activities-list{
