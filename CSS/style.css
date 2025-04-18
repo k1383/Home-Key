@@ -436,7 +436,10 @@ footer > p{
     header {
         display: grid;
         grid-template-columns: 1fr;
-        justify-content: center;
+    }
+
+    header img {
+        margin: 0 60px;
     }
 
     header nav a:hover {
@@ -456,10 +459,8 @@ footer > p{
 
     #filters {
         display: flex;
-        
     }
     
-
     .activities-list{
         display: grid;
         grid-template-columns: 1fr;
@@ -467,7 +468,6 @@ footer > p{
 
     footer div {
         display: inline-block;
-        
     }
 
     footer ul{
