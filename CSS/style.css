@@ -439,13 +439,8 @@ footer > p{
         justify-content: center;
     }
 
-    header img {
-        margin: 20px 70px;
-    }
-
     header nav a:hover {
         border-top: none;
-        padding-top: 50px;   
         color: #000;
     }
 
@@ -459,10 +454,24 @@ footer > p{
         display: none;
     }
 
+    #filters {
+        display: flex;
+        
+    }
+    
+
     .activities-list{
         display: grid;
         grid-template-columns: 1fr;
     }
 
+    footer div {
+        display: inline-block;
+        
+    }
+
+    footer ul{
+        margin: 30px 0;   
+    }
     
 }
