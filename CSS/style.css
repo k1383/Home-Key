@@ -425,12 +425,30 @@ footer > p{
         flex-direction: column;
     }
 
-    /* .activities-list{
+    .activities-list{
         display: grid;
         grid-template-columns: 1fr 1fr;
-    } */
+    }
 }
 
 @media screen and (max-width:767px) {
 
+    header {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    header nav a:hover {
+        border-top: none;
+        padding-top: 50px;   
+        color: #000;
+    }
+
+    .activities-list{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    
 }
