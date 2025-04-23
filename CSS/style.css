@@ -442,8 +442,9 @@ footer > p{
     }
 
     header nav ul {
-        
-    }
+        display: flex;
+        gap:20px; 
+    } 
 
     header nav a:hover {
         border-top: none;
