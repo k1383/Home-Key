@@ -461,6 +461,10 @@ footer > p{
         display: none;
     }
 
+    #accommodations {
+        flex-direction: column-reverse;
+    }    
+
     #filters {
         display: flex;
     }
@@ -471,7 +475,7 @@ footer > p{
     }
 
     footer div {
-        display: inline-block;
+        flex-direction: column;
     }
 
     footer ul{
